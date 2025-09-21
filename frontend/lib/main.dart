@@ -337,7 +337,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           const SizedBox(width: 16),
-          // Participant Table
           Expanded(
             flex: 3,
             child: Container(
