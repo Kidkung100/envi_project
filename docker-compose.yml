@@ -14,7 +14,7 @@ services:
     container_name: node-backend
     restart: always
     ports:
-      - "3000:3000"
+      - "3131:3131"
     environment:
       - MONGO_URI=mongodb://mongo:27017/participantsDB
     depends_on:

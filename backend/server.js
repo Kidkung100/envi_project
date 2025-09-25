@@ -46,4 +46,4 @@ app.post("/api/game_scores", async (req, res) => {
   res.status(201).json(newScore);
 });
 
-app.listen(3000, () => console.log("🚀 Backend running on port 3000"));
+app.listen(3131, () => console.log("🚀 Backend running on port 3131"));
